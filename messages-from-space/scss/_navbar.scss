@@ -11,9 +11,11 @@
     }
   }
   .navbar-brand {
-    color: $black;
     font-weight: 700;
     padding: .9rem 0;
+    img {
+      width: 40%;
+    }
   }
   .navbar-nav {
     .nav-item {
@@ -50,10 +52,11 @@
         color: white;
       }
     }
+
     &.navbar-shrink {
-      background-color: $white;
-      .navbar-brand {
-        color: $black;
+      background-color: rgba(255, 255, 255, 0.85);
+      .navbar-brand img{
+          content: url('../img/logo-black.png');
       }
       .nav-link {
         color: $black;
