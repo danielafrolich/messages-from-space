@@ -35,13 +35,42 @@ a {
 }
 
 footer {
-  padding: 5rem 0;
+  padding: 3rem 0;
 }
 
 .width-15{
   width: 15%;
 }
 
+.width-40{
+  width: 40%;
+}
+
 .text-align-center{
   text-align: center;
+}
+
+.mr-2-9{
+  margin-right: 2.9em !important;
+}
+
+.width-108{
+  width: 108% !important;
+}
+
+@media only screen and (max-width: 992px) {
+  .mr-2-9{
+    margin-right: 1.0rem !important;
+  }
+
+  h6{
+    font-size: 1.2rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .mr-2-9{
+    margin-right: 0 !important;
+    font-size: 1.0rem;
+  }
 }

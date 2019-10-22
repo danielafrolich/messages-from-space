@@ -163,7 +163,7 @@
 }
 
 .about-section {
-  padding-top: 10rem;
+  padding-top: 0;
   background: linear-gradient(to bottom, #161616 0%, rgba(22, 22, 22, 0.9) 75%, rgba(22, 22, 22, 0.8) 100%);
 }
 
@@ -245,7 +245,7 @@
 }
 
 .contact-section .social {
-  margin-top: 1rem;
+  margin-top: rem;
 }
 
 .contact-section .social a {
@@ -293,5 +293,5 @@ a:focus, a:hover {
 }
 
 footer {
-  padding: 5rem 0;
+  padding: 2rem 0;
 }
